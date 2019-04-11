@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pdpdgh/config-repo.git
+          username: pdpdgh
+          password: DGHpdp,969
+#          basedir: /var/config/basedir_github
+#          uri: https://gitee.com/pdpdmy/config-repo
+#          username: pdpdmy
+#          password:
+#          basedir: /var/config/basedir
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    username: admin
+    password: admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
