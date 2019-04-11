@@ -7,7 +7,7 @@ spring:
         git:
           uri: https://github.com/pdpdgh/config-repo.git
           username: pdpdgh
-          password: DGHpdp,969
+          password:
 #          basedir: /var/config/basedir_github
 #          uri: https://gitee.com/pdpdmy/config-repo
 #          username: pdpdmy
